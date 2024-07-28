@@ -1,0 +1,73 @@
+/* ------ CSS Demo ------ */
+
+/* ---------------------------- Box Sizing ---------------------------- */
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0;
+}
+
+header.primary{
+background-color:red;
+color:orange;
+text-align: center;
+text-shadow: 5px 5px #FFFF00;
+padding:25px 50px;
+}
+
+header.primary h1 {
+    font-size: 2.4rem; 
+    background:green;
+    margin: 30px 0 0;
+}
+
+header.primary h1 a{
+    color:blue;
+    text-decoration:none; 
+}
+
+header.primary h2{
+    margin:0;
+    font-size: 2.1rem; 
+}
+
+header.primary nav{
+    max-width: 950px; 
+    background:indigo;
+    margin:25px auto;
+}
+
+header.primary ul{
+    padding: 15px 0; 
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+header.primary ul li{
+    list-style-type:none;
+}
+
+header.primary nav a {
+    color:purple;
+    text-decoration:none;
+    background-color: rgba(255, 0, 0);
+    padding: 7px 14px;
+    border-radius: 24px;
+    border:2px solid #FFA500;
+    transition: 0.7s;
+}
+
+header.primary nav a:hover{
+    background-color:rgba(255, 255, 0);
+}
+
